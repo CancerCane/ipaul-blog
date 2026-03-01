@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+    {% include head.html %}
+    <link rel="icon" href="{{ '/assets/img/favicon.ico' | relative_url }}" type="image/x-icon" />
+    <!-- Minima theme CSS -->
+    <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
+    <!-- MDB Dark Theme -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.dark.min.css" />
+    <!-- Loading Screen CSS -->
+    <link rel="stylesheet" href="{{ '/assets/css/loading-screen.css' | relative_url }}" />
+    <!-- Custom Styles (last to override) -->
+    <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}" />
+  </head>
+
+  <body>
+    {% include loading-screen.html %}
+    <header>
+      {% include navbar.html %}
+    </header>
+
+    <main id="content">{{ content }}</main>
+
+    {% include cta-band.html %}
+    {% include footer.html %}
+
+    <!-- MDB JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.umd.min.js"></script>
+    <!-- Custom Scripts -->
+    <script src="{{ '/assets/js/loading-screen.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/navbar.js' | relative_url }}"></script>
+  </body>
+</html>

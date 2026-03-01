@@ -1,0 +1,66 @@
+# Site Settings
+title: iPaul Blog
+tagline: "Tech, Opinions & Life After Service"
+email: ipaul@ipaul.us
+description: >-
+  A retired veteran's take on technology, world news, and life's second chapter.
+  Documenting the journey one post at a time.
+baseurl: "/ipaul-blog"
+url: "https://cancercane.github.io"
+author: iPaul
+
+# Build settings
+theme: minima
+permalink: pretty
+markdown: kramdown
+highlighter: rouge
+
+# Collections
+collections: []
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "iPaul"
+
+# Social / Contact
+contact_email: "ipaul@ipaul.us"
+social:
+  github: "CancerCane"
+  # twitter: ""
+  # instagram: ""
+
+# SEO
+keywords: "iPaul, blog, tech, veteran, retirement, opinions, world news, technology"
+logo: "/assets/img/logo.png"
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Sass options
+sass:
+  sass_dir: "_sass"
+
+# Exclude from processing
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
+  - README.md
+  - .git/
+  - .gitignore

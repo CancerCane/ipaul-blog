@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+<article class="page-content">
+  <div class="container">
+    {% if page.subtitle %}
+      <p class="page-subtitle">{{ page.subtitle }}</p>
+    {% endif %}
+    {{ content }}
+  </div>
+</article>
