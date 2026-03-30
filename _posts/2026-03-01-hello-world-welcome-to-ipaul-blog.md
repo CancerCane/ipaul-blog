@@ -5,6 +5,7 @@ date: 2026-03-01
 author: iPaul
 categories: [Life]
 excerpt: "Starting a new chapter. This is where I'll be documenting the tech journey, sharing opinions, and writing about life after service."
+featured_image: /assets/img/posts/hello-world.svg
 ---
 
 This is it — the first post.

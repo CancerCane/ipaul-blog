@@ -5,6 +5,7 @@ date: 2026-02-20
 author: iPaul
 categories: [Opinion, Tech]
 excerpt: "The skills you built in service translate better to tech than you think. Here's why coding might be your best next move."
+featured_image: /assets/img/posts/veterans-code.svg
 ---
 
 I hear this a lot from fellow vets: "I'm not a tech person." I used to say the same thing.

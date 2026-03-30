@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="50%" style="stop-color:#0f3460"/>
+      <stop offset="100%" style="stop-color:#1a1a2e"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="40%">
+      <stop offset="0%" style="stop-color:#5e9693;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#5e9693;stop-opacity:0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="600" cy="280" r="250" fill="url(#glow)"/>
+  <!-- Star icon -->
+  <polygon points="600,140 620,220 700,220 635,268 658,348 600,300 542,348 565,268 500,220 580,220" fill="none" stroke="#5e9693" stroke-width="3" opacity="0.7"/>
+  <text x="600" y="420" text-anchor="middle" font-family="sans-serif" font-size="32" font-weight="bold" fill="#ffffff">VETERANS &amp; CODE</text>
+  <text x="600" y="460" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#a0a0b0">Service. Discipline. Software.</text>
+  <line x1="480" y1="490" x2="720" y2="490" stroke="#5e9693" stroke-width="2" opacity="0.5"/>
+</svg>

@@ -5,6 +5,7 @@ date: 2026-03-30
 author: L. Cane Paul
 categories: [Tech, Linux]
 excerpt: "How I built a fully encrypted, portable Fedora 43 development environment on an external SSD — complete with dual desktops, Python toolchains, AI IDEs, and Windows gaming via Wine."
+featured_image: /assets/img/posts/pocket-os.svg
 ---
 
 I got tired of dual-booting. The constant rebooting, the risk of one OS clobbering the other's bootloader, the wasted disk space — all of it. So I took a different approach: I built a full Linux development environment on a portable SSD that I can plug into *any* UEFI machine and boot from.

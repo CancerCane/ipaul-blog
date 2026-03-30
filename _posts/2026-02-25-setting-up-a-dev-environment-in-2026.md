@@ -5,6 +5,7 @@ date: 2026-02-25
 author: iPaul
 categories: [Tech]
 excerpt: "My current setup for web development — tools, editors, and workflow choices that keep things simple."
+featured_image: /assets/img/posts/dev-environment.svg
 ---
 
 Every year I tweak my dev setup. Here's where things stand in 2026.

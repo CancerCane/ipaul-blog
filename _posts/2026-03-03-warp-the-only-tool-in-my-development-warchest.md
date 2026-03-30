@@ -5,6 +5,7 @@ date: 2026-03-03
 author: L. Cane Paul
 categories: [Tech]
 excerpt: "Six years of learning and re-learning as tech changes by the minute. WARP is the one constant that keeps me relevant, informed, and actually shipping code."
+featured_image: /assets/img/posts/warp-warchest.svg
 ---
 
 Let me be honest with you: **WARP is the only tool in my development warchest.**
